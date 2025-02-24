@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { fn } from '@storybook/test';
 
 import { ListItem } from './ListItem';
 
@@ -14,9 +13,7 @@ const meta = {
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
-  argTypes: {
-    // variant: { control: [ListItemVariants.ACTIVE, ListItemVariants.ENABLED ]},
-  },
+  argTypes: {},
 } satisfies Meta<typeof ListItem>;
 
 export default meta;
@@ -55,23 +52,3 @@ export const Enabled: Story = {
     isEnabled: true,
   },
 };
-
-// export const Secondary: Story = {
-//   args: {
-//     label: 'Button',
-//   },
-// };
-
-// export const Large: Story = {
-//   args: {
-//     size: 'large',
-//     label: 'Button',
-//   },
-// };
-
-// export const Small: Story = {
-//   args: {
-//     size: 'small',
-//     label: 'Button',
-//   },
-// };
