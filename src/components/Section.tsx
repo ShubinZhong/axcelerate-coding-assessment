@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./Section.module.css";
 import arrow from "../assets/vector.svg";
 import { ListItem, ListItemProps } from "./ListItem";
@@ -15,7 +15,7 @@ export const Section = ({
   isActive = false,
   ...props
 }: SectionProps) => {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
   return (
     <div className={classes.section} {...props}>
       {/* Header */}
