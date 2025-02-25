@@ -1,0 +1,34 @@
+[
+  {
+    "contactName": "Jenny Wilson",
+    "email": "jenny@hotmail.com",
+    "showEmail": "true",
+    "isActive": "false",
+    "isEnabled": "false",
+    "avatar": "https://s3-alpha-sig.figma.com/img/71cb/14c2/afd701db5d597b7147da7ffe1228dec2?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cwaR8vW7GgxZrhTubX9ywtcQpzY4UODfaoakZT9La4nCGuY96Xpug7q9CcdFku2EBU1LvfmA~83U4ka5tZ~8nf9PBYWAOKalQCR5erlBcvQYB3TPu8embdqPxuj6EzWrFeo94LSOUoViPsu1zNzk3~2d5qfamqy3hPTYmT2X5g3fDpTTYsaMvPZpGyWgkDM2q01ylRWYomjVReZKzFjcqOm2noeSqHZmeBiGXaqn63LeyZ-t0kpCZN7f0HWy6eCDbkAnLbe9Tl-FwvE8sT8cWEX~YKFVh~ZUilLhDczTApeFaSkgyXdI02FCheBxWIQZEQ7y83Z4b2ZveS0V2LviyA__"
+  },
+  {
+    "contactName": "Wade Warren",
+    "email": "wade@hotmail.com",
+    "showEmail": "true",
+    "isActive": "false",
+    "isEnabled": "false",
+    "avatar": "https://s3-alpha-sig.figma.com/img/9475/e2be/e15b6ef53b85669e290f9e19cefefe9a?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=A7LS2moxmkEQ0g9QUIghmbvNde8PE9ujhkINSqMEGxC69WK3kZEiJegBT26rFC4ryEGh-Uw5WXRonYafPGYQXFbi9OEGkgDnmetdsLzCP3QnPc9sCKX465GVCcuAsInP0cx47qHXr8a7DUdVefHUUHm64a0SkFd2ZZ0ybn6gLrv8GSRPSLME4h5mM2F739yMdm5iFEIi9gR1s5795PMOIq2m~VT0LgnZTdpV3NiHQSLrL1gl~jYKkHn4CAaisLLt8n4QLOCG5B-L2TUrfgn97p0aOh3ZDnIVmdA4sXugOKRAoEynithnPmUz5Do9lpAV7aaU-lZEw-pXm6LiGJ5dsw__"
+  },
+  {
+    "contactName": "Bessie Cooper",
+    "email": "bessie@hotmail.com",
+    "showEmail": "true",
+    "isActive": "false",
+    "isEnabled": "false",
+    "avatar": "https://s3-alpha-sig.figma.com/img/fd3c/cf83/6d15d502fd0c6dfcd053bcc4e31e4702?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Uevd~q1h7QPNzoadOqhM4O~dtAiXVEqKsni19ROzDEWqz7dLcmtI0LbXJUE5G~sJrIOK75TwAkjweTUwdKLBBjPtEfZ3b4alaBruYivHPZHUnoP5w0h-GFxxzieOgFoFgFuUze9mYlRCCYGGrpRFMiB0GbsQ0S6os8inBAiMDAW4RJsN6SUbZFf-ibCqxZ791PRc2beh1s-IjS5XF0lUKQCrw-Mt2F3GGSCTqzMllWI23UFMpTZiY1P6MmZZKPZDNEGP0vVfmqitHZBGYDwmV1Etc0iy7oTJlah96LOIKIfVIh3xH5yDHw29QTPH0f5IvUGHTDz-ELteofoxv2TpoA__"
+  },
+  {
+    "contactName": "Ralph Edwards",
+    "email": "ralph@hotmail.com",
+    "showEmail": "true",
+    "isActive": "false",
+    "isEnabled": "false",
+    "avatar": "https://s3-alpha-sig.figma.com/img/5a16/1277/1bcee43bcddc83f2dfb2b41b252c6d8c?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tGU7VlUqBFdnwEQ-pJd02Pl6OKEp91qT3yoTs3cKB1qA29TZRNi4FS1KBuPaqADf-aZJDxBoYXWE1jYyX5jMkcWz5PiLgD2nOAQwMc-P87lgMJMD9jTycx-rQE1uCrY3gauIJb0P~HeCUE8-W1CBJsMabtdvkBczaLwHKwWP6dtTm5rcaGjugi6zwXMlNtva-Sx~SbhAlyv72nTkJKJTwGI9YZvCF8g3hZfHaZ2Hg6r~72iv4ua7lKqOYhn5aSj20f4C0ggdayGV20nkD6cv5uSknFPJLABfOBwDDCfbdD7pLP1pUnFOLfN28vVSlfYfA~-zG0gfoTHbqXn9RWoElQ__"
+  }
+]
