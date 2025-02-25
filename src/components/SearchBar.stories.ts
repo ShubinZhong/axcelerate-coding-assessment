@@ -6,7 +6,14 @@ import { fn } from "@storybook/test";
 const meta = {
   title: "Example/SearchBar",
   component: SearchBar,
-  parameters: {},
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "SearchBar component is designed to allow users to search for items by typing a search query",
+      },
+    },
+  },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ["autodocs"],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes

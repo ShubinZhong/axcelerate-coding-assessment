@@ -7,7 +7,14 @@ import { absentGroup, attendedGroup } from "../helpers/data-helper";
 const meta = {
   title: "Example/SearchableList",
   component: SearchableList,
-  parameters: {},
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "SearchableList component displays multiple `Section` components and includes a `SearchBar` for users to search and filter through the lists to find specific users based on their name",
+      },
+    },
+  },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ["autodocs"],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes

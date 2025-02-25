@@ -5,7 +5,14 @@ import { ListItem } from "./ListItem";
 const meta = {
   title: "Example/ContactListItem",
   component: ListItem,
-  parameters: {},
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "ListItem component displays a user's basic information, including their name, avatar, and email.",
+      },
+    },
+  },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ["autodocs"],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
