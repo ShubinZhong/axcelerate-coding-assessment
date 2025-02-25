@@ -50,3 +50,11 @@ For each component, you can find detailed documentation under the **Docs** tab i
 - In Storybook, locate the **SearchableList** component story. You will see stories starting with **Test**; these are the component tests.
 - Open the Addons panel in Storybook.
   Click on the Interactions tab to view and run tests directly within Storybook.
+
+## **⚠️ Attention Notes**
+
+> **Please Note:** _All components are stretched to fill the screen size, as the provided Figma design does not include tablet or desktop designs._
+
+### 1. **Responsive Design**
+
+- **⚠️ Important:** Due to the absence of tablet or desktop designs in the provided Figma files, all components are designed to stretch and fill the available screen size, ensuring basic responsiveness. However, additional refinements may be necessary for optimal display on different screen sizes.
