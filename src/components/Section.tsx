@@ -23,6 +23,7 @@ export const Section = ({
       {/* Header */}
       <div>
         <button
+          data-testid={`${sectionName}`}
           className={`${classes.sectionHeader} ${
             isActive ? classes.active : ""
           }`}
@@ -42,7 +43,10 @@ export const Section = ({
       </div>
       {/* List */}
       {expanded && (
-        <div className={classes.sectionListBox}>
+        <div
+          data-testid={`${sectionName}-result`}
+          className={classes.sectionListBox}
+        >
           {listContent.length > 0 &&
             listContent.map((item) => (
               <ListItem
