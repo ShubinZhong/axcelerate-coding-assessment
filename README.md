@@ -53,8 +53,10 @@ For each component, you can find detailed documentation under the **Docs** tab i
 
 ## **⚠️ Attention Notes**
 
-> **Please Note:** _All components are stretched to fill the screen size, as the provided Figma design does not include tablet or desktop designs._
+### 1. **Not Able to load the page at first time?**
 
-### 1. **Responsive Design**
+- **⚠️ Important:** Due to the a bug memtioned [here](https://github.com/storybookjs/storybook/issues/30335#issuecomment-2616329782), you may encounter an issue when loading the page for the first time. Refreshing the page should resolve it.
+
+### 2. **Responsive Design**
 
 - **⚠️ Important:** Due to the absence of tablet or desktop designs in the provided Figma files, all components are designed to stretch and fill the available screen size, ensuring basic responsiveness. However, additional refinements may be necessary for optimal display on different screen sizes.
