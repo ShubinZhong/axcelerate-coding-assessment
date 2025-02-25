@@ -3,7 +3,11 @@ import classes from "./SearchBar.module.css";
 import icon from "../assets/seach-icon.png";
 
 export interface SearchBarProps {
+  /** The placeholder text to display inside the input field. */
   placeholderText: string;
+  /** Event handler triggered when the input value changes.
+   * @param {ChangeEvent<HTMLInputElement>} e - The change event containing the updated input value.
+   */
   onChangeHandler: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
