@@ -18,6 +18,7 @@ export const SearchBar = ({
       <input
         type="search"
         id="name-search"
+        data-testid="name-search"
         placeholder={placeholderText}
         className={classes.searchInput}
         onChange={(e) => {
