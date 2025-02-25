@@ -23,6 +23,7 @@ export const Default: Story = {
   args: {
     sectionName: "Absent",
     isActive: true,
+    showEmail: false,
     listContent: [
       {
         contactName: "Dianne Russell",
@@ -30,7 +31,6 @@ export const Default: Story = {
         avatar: "",
         isActive: false,
         isEnabled: false,
-        showEmail: false,
       },
       {
         contactName: "Ronald Richards",
@@ -38,7 +38,6 @@ export const Default: Story = {
         avatar: "",
         isActive: false,
         isEnabled: false,
-        showEmail: false,
       },
       {
         contactName: "Arlene McCoy",
@@ -46,7 +45,6 @@ export const Default: Story = {
         avatar: "",
         isActive: false,
         isEnabled: false,
-        showEmail: false,
       },
       {
         contactName: "Kathryn Murphy",
@@ -54,7 +52,6 @@ export const Default: Story = {
         avatar: "",
         isActive: false,
         isEnabled: false,
-        showEmail: false,
       },
     ],
   },

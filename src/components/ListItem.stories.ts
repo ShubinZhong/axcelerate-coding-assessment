@@ -1,17 +1,17 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
 
-import { ListItem } from './ListItem';
+import { ListItem } from "./ListItem";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Example/ContactListItem',
+  title: "Example/ContactListItem",
   component: ListItem,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     // layout: 'centered',
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {},
 } satisfies Meta<typeof ListItem>;
@@ -23,7 +23,7 @@ type Story = StoryObj<typeof meta>;
 export const Base: Story = {
   args: {
     showEmail: true,
-    contactName: 'Jane Doe',
+    contactName: "Jane Doe",
     email: "jane@hotmail.com",
     avatar: "",
     isActive: false,
@@ -34,7 +34,7 @@ export const Base: Story = {
 export const Active: Story = {
   args: {
     showEmail: true,
-    contactName: 'Jane Doe',
+    contactName: "Jane Doe",
     email: "jane@hotmail.com",
     avatar: "",
     isActive: true,
@@ -45,7 +45,7 @@ export const Active: Story = {
 export const Enabled: Story = {
   args: {
     showEmail: true,
-    contactName: 'Jane Doe',
+    contactName: "Jane Doe",
     email: "jane@hotmail.com",
     avatar: "",
     isActive: false,

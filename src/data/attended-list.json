@@ -2,7 +2,6 @@
   {
     "contactName": "Dianne Russell",
     "email": "dianne@hotmail.com",
-    "showEmail": "true",
     "isActive": "false",
     "isEnabled": "false",
     "avatar": "https://s3-alpha-sig.figma.com/img/cb7e/e3cc/feb7f1424c47b61f4107bd756976939e?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eXryUMr4NXtc0cVESC85-pU~t~jkgVUWwmABdqMiip8XjuW5igt4puGo2oe7~3WDjlAnOuUgIKIuSOjvA0owE86HAxBZUujiBom2wrIknxlqinTiKRVjC-Ndf9XpNfVeWFf1R-SPc6poXJuZemy6tnuE~IWZ8uV5MOhuI5SIqOnbNhSFPclYbOPpGeTnOhAJWEiOolKOaUfNFL1A4QlN6U84Q~n5lkg03ib3KibZvee0UDbbWYekj6rODVrp~suRkWI5oCJ0H9tOzd90JNpPwwAt7sFqZvwXZya2FYhRPnhPFE~rhrJ4y-5oncfq7G1N3yH1NHTSvlVcf3N1WHHJHA__"
@@ -10,7 +9,6 @@
   {
     "contactName": "Ronald Richards",
     "email": "ronald@hotmail.com",
-    "showEmail": "false",
     "isActive": "true",
     "isEnabled": "false",
     "avatar": "https://s3-alpha-sig.figma.com/img/3721/eec3/d2a1551fce69f6f1050ffbcea95e6a06?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ScYbDoCdHS3a4zHivz~pTOViyuuhK6OMDAUyxyrx316pwnTUh6OJ18t6aAhBxFEuf32~7m-bZoAio-PtogzMHNhOwVGts-slRYmC0JeG1WA~C4tiKZqsSc1O6cCIa16U9Rz5GEm3ed~n6CXYdFQqwNrij3CVPdoQWAOPsYwqXpisnP3LEqPlExf7kX28CSQdZlBYcpZutckQZY1QBaqwTb-FuHURPUYRXrSb0RSHYPlDWPPMYLFWvZTX9EvLYqNvwNA0PrY0XTVHitq38ciTcHqo4-iNhQcR2LxoGvquySaAKren6Jtm9rXl~~HT7jKs1XsIkgYSb7q1s6J4pMfqeQ__"
@@ -18,7 +16,6 @@
   {
     "contactName": "Arlene McCoy",
     "email": "arlene@hotmail.com",
-    "showEmail": "true",
     "isActive": "false",
     "isEnabled": "false",
     "avatar": "https://s3-alpha-sig.figma.com/img/7515/e403/1b93ca31a33bd13e00ba7e7a14db660d?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=V6Gv5key04aHKlWfIX5v7PPSbZME-uZdyokbD9NOVrSPR2gtaNE2UWFfiOOkLxuOZZjoEIgOXqaWac2G0qS99WQ6S5naZ-8LgVo1NJe4h-QSB4ZpgdjahlV7-qfGHW1IlYfZAiIdhq9mlkJTA8mfCcCNBSNsMSvM730xCFSA1I2Jzg1jGDqg2WuxSwxIOKkbM4nmroBxkyq8bDnEcz1XfHMKTq7qW9bTt6O41sKeSqvueURDRXsN3axmLOoKxUieIVcC59S8nxf5TwvujdicholiD2~W8mTtRbDzk11mtvMw9PxvpDec1ezUijT5kfz3KFXkbXidjUnTCho8r2mNFA__"
@@ -26,7 +23,6 @@
   {
     "contactName": "Savannah Nguyen",
     "email": "savannah@hotmail.com",
-    "showEmail": "true",
     "isActive": "false",
     "isEnabled": "false",
     "avatar": "https://s3-alpha-sig.figma.com/img/682d/13d0/440b556e1bf87d98203acf339ad801f5?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iKCi4RtwA10O7lTfEhUp0mykLjanOwcCJ-pfy8Mc1XJykge5PtcgD5vcWQVrMQKMewt8JVBRrOGpYNhoAL2sLKCY5yXwkRvVbnjVtbf86iWUs2ODcFJtNFIf0Qlhif3HBthjHvdJQo5jHdrIw38klpkZpmzrGyx3X2bxuCaHi5JCmsXndkVf-1aRHlp-O8I9dll82joDLhE4t-0mofT6OaTcPkLNLR~5HcPgt3jDojeOHselKVHpwdqxmQ0oGQH295W48wt7KgqojJ5KCyhZRxsBvGZYfyiAI-UjSAvUJ7IwV5G4jo6huGvYOrUvfXTLCUE0UqSgW-XLddSA90j9vw__"
@@ -34,7 +30,6 @@
   {
     "contactName": "Kathryn Murphy",
     "email": "kathryn@hotmail.com",
-    "showEmail": "true",
     "isActive": "false",
     "isEnabled": "true",
     "avatar": "https://s3-alpha-sig.figma.com/img/6e11/6d9f/076c902921ec66628f5642a8b722e9be?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qBfMmoUvlAzYnFciRCdACWyc83uQJz0XrhyXQizYnOXFYHK3TrmyXyiCFvus2RbvJ2HgBiC2XNwaT3~frqPz-OVTzbJwrMUc0Y-KS8d2CZyawplwRWBg8-Mv51miwyMMscDJDogDNBskVv~fmY880yuYvkLkYjKyI9~k~MYz~nfUOkXD1hlaE6dPm0dBRwzHd18ze3N5A0of2503Jzhl-GN-ONpYKk3FQrmyu7Hto0gKi6O-k6LHdfSKe~A-5GREkTKAJDga-8mYmXVshkhirtHkYjoJeqvVOla1P5B78nPORtwGOR~auOOQm~DgOY0zItrvuR78KrQhFf2FCmnDjQ__"
@@ -42,7 +37,6 @@
   {
     "contactName": "Albert Flores",
     "email": "albert@hotmail.com",
-    "showEmail": "true",
     "isActive": "false",
     "isEnabled": "false",
     "avatar": "https://s3-alpha-sig.figma.com/img/ebe9/5a76/63de1fe060dffb6c3c24d7f46c3729fc?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rCWgJN8OTvnRQ~wShsBJhlr4Ky6jDo9sJs3qYJk~-aoQ7tL1tNl6LH5SMXcsja3H24soJaKtjVnbOygHPtsz2mo1QBtPbGo87B7HkxMt0ZMf8TxrwDCF8d7YxzLfIyXDT3OBi9SASpn48M9-ppwDOsahlMXjoDsm7j9zyMHaUWB4rsGhCcDL9ZFs0qiJcqFuXhoCdRkVvAeRO0weem0UgBsmMwGkW1WyoaDvVW6YQ-RPEYY29ocoSlQGcxPsHLRX6g7r-oEsk9rFg2qvb98AM82n3FNhN8zB8BJ8YuqIeeoYGUBN0LY364ackMI3zdDSJosuGQhF2WE5TUJfb-ZqRg__"

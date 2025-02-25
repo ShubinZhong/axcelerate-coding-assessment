@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import classes from "./Section.module.css";
 import arrow from "../assets/vector.svg";
-import { ListItem, ListItemProps } from "./ListItem";
+import { User, ListItem } from "./ListItem";
 
 export interface SectionProps {
   sectionName: string;
-  listContent: ListItemProps[];
+  listContent: User[];
   isActive: boolean;
+  showEmail: boolean;
 }
 
 export const Section = ({
   sectionName,
   listContent,
   isActive = false,
+  showEmail = false,
   ...props
 }: SectionProps) => {
   const [expanded, setExpanded] = useState(true);
@@ -45,7 +47,7 @@ export const Section = ({
             listContent.map((item) => (
               <ListItem
                 key={item.email}
-                showEmail={item.showEmail}
+                showEmail={showEmail}
                 contactName={item.contactName}
                 email={item.email}
                 avatar={item.avatar}

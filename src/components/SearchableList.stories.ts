@@ -28,7 +28,7 @@ const attendedGroup: ListItemProps[] = attendedList.map((a) => ({
   isActive: a.isActive === "true",
   isEnabled: a.isEnabled === "true",
   email: a.email,
-  showEmail: a.showEmail === "true",
+  showEmail: true,
   avatar: a.avatar,
 }));
 const absentGroup: ListItemProps[] = absentList.map((a) => ({
@@ -36,11 +36,12 @@ const absentGroup: ListItemProps[] = absentList.map((a) => ({
   isActive: a.isActive === "true",
   isEnabled: a.isEnabled === "true",
   email: a.email,
-  showEmail: a.showEmail === "true",
+  showEmail: true,
   avatar: a.avatar,
 }));
-export const Base: Story = {
+export const EmailVariation: Story = {
   args: {
+    showEmail: true,
     lists: [
       {
         sectionName: "Attended",
