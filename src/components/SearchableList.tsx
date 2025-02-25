@@ -1,16 +1,30 @@
 import React, { useEffect, useState } from "react";
-import classes from "./SearchableList.module.css";
 import { SearchBar } from "./SearchBar";
 import { Section } from "./Section";
 import { User } from "./ListItem";
 
 export type TSectionList = {
+  /**
+   * The name of the section.
+   */
   sectionName: string;
+  /**
+   * The list of users in the section.
+   */
   list: User[];
+  /**
+   * Indicates whether the section is currently active.
+   */
   isActive: boolean;
 };
 export interface SearchableListProps {
+  /**
+   * An array of section lists to be displayed in the component.
+   */
   lists: TSectionList[];
+  /**
+   * Determines whether to show user emails in the list.
+   */
   showEmail: boolean;
 }
 
