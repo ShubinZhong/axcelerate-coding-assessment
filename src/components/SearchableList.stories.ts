@@ -88,30 +88,26 @@ export const TestSearch: Story = {
   },
 };
 
+const testSectionById = async (id: string, canvasElement: HTMLElement) => {
+  const canvas = within(canvasElement);
+
+  await userEvent.click(canvas.getByTestId(id));
+  await expect(canvas.queryByTestId(`${id}-result`)).toBeNull();
+
+  await userEvent.click(canvas.getByTestId(id));
+  await expect(canvas.getByTestId(`${id}-result`)).toBeInTheDocument();
+};
+
 export const TestClickAttendedSection: Story = {
   ...Standard,
   play: async ({ canvasElement }) => {
-    const id = "Attended";
-    const canvas = within(canvasElement);
-
-    await userEvent.click(canvas.getByTestId(id));
-    await expect(canvas.queryByTestId(`${id}-result`)).toBeNull();
-
-    await userEvent.click(canvas.getByTestId(id));
-    await expect(canvas.getByTestId(`${id}-result`)).toBeInTheDocument();
+    await testSectionById("Attended", canvasElement);
   },
 };
 
 export const TestClickAbsentSection: Story = {
   ...Standard,
   play: async ({ canvasElement }) => {
-    const id = "Absent";
-    const canvas = within(canvasElement);
-
-    await userEvent.click(canvas.getByTestId(id));
-    await expect(canvas.queryByTestId(`${id}-result`)).toBeNull();
-
-    await userEvent.click(canvas.getByTestId(id));
-    await expect(canvas.getByTestId(`${id}-result`)).toBeInTheDocument();
+    await testSectionById("Absent", canvasElement);
   },
 };
