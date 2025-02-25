@@ -1,0 +1,42 @@
+.section {
+  background-color: #ffffff;
+}
+
+.section-header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 37px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 8px;
+  color: #5a6d80;
+  border-top: 1px solid #e4e5e8;
+  border-bottom: 1px solid #e4e5e8;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.section-header:hover {
+  background-color: #f2f5f7;
+}
+
+.active {
+  background-color: #e6ecef !important;
+}
+
+.rotate-icon {
+  transform: rotate(90deg);
+  transition-duration: 200ms;
+}
+
+.reset-icon {
+  transform: rotate(0deg);
+  transition-duration: 200ms;
+}
+
+.section-list-box {
+  padding: 8px;
+}
