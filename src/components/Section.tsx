@@ -4,9 +4,21 @@ import arrow from "../assets/vector.svg";
 import { User, ListItem } from "./ListItem";
 
 export interface SectionProps {
+  /**
+   * The name of the section to be displayed.
+   */
   sectionName: string;
+  /**
+   * The list of users to be displayed in the section.
+   */
   listContent: User[];
+  /**
+   * Determines whether the section is currently active.
+   */
   isActive: boolean;
+  /**
+   * Specifies whether to show the user's email in the list.
+   */
   showEmail: boolean;
 }
 
